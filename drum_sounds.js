@@ -1,62 +1,54 @@
-var buttonElement = document.getElementById('hihat')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/hihat.wav');
-  audio.play()
+var hihat = new Audio('drum-sounds/hihat.wav')
+var tom = new Audio('drum-sounds/tom.wav')
+var openhat = new Audio('drum-sounds/openhat.wav')
+var boom = new Audio('drum-sounds/boom.wav')
+var clap = new Audio('drum-sounds/clap.wav')
+var kick = new Audio('drum-sounds/kick.wav')
+var ride = new Audio('drum-sounds/ride.wav')
+var snare = new Audio('drum-sounds/snare.wav')
+var tink = new Audio('drum-sounds/tink.wav')
+var hihatbutton = document.getElementById('hihatbutton')
+var tombutton = document.getElementById('tombutton')
+var openhatbutton = document.getElementById('openhatbutton')
+var boombutton = document.getElementById('boombutton')
+var clapbutton = document.getElementById('clapbutton')
+var kickbutton = document.getElementById('kickbutton')
+var ridebutton = document.getElementById('ridebutton')
+var snarebutton = document.getElementById('snarebutton')
+var tinkbutton = document.getElementById('tinkbutton')
+hihatbutton.addEventListener('mouseenter', function() {
+  console.log('hi hat yay!')
+  hihat.play()
 })
-
-var buttonElement = document.getElementById('tom')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/tom.wav');
-  audio.play()
+tombutton.addEventListener('mouseenter', function() {
+  console.log('tom sound yay')
+  tom.play()
 })
-
-var buttonElement = document.getElementById('openhat')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/openhat.wav');
-  audio.play()
+openhatbutton.addEventListener('mouseenter', function() {
+  console.log('open hat sound yay')
+  openhat.play()
 })
-
-var buttonElement = document.getElementById('boom')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/boom.wav');
-  audio.play()
+boombutton.addEventListener('mouseenter', function() {
+  console.log('BOOOM')
+  boom.play()
 })
-
-var buttonElement = document.getElementById('clap')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/clap.wav');
-  audio.play()
+clapbutton.addEventListener('mouseenter', function() {
+  console.log('clap sound yay')
+  clap.play()
 })
-
-var buttonElement = document.getElementById('kick')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/kick.wav');
-  audio.play()
+kickbutton.addEventListener('mouseenter', function() {
+  console.log('kick sound yay')
+  kick.play()
 })
-
-var buttonElement = document.getElementById('ride')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/ride.wav');
-  audio.play()
+ridebutton.addEventListener('mouseenter', function() {
+  console.log('ride sound yay')
+  ride.play()
 })
-
-var buttonElement = document.getElementById('snare')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/snare.wav');
-  audio.play()
+snarebutton.addEventListener('mouseenter', function() {
+  console.log('snare sound yay')
+  snare.play()
 })
-
-var buttonElement = document.getElementById('tink')
-buttonElement.addEventListener('click', function () {
-  console.log('I was clicked!')
-  var audio = new Audio('drum-sounds/tink.wav');
-  audio.play()
+tinkbutton.addEventListener('mouseenter', function() {
+  console.log('tink sound yay')
+  tink.play()
 })
